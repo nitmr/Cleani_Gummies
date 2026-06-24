@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    color:rgb(37, 65, 100);
+    flex-direction: row;
+    gap: 10px;
+    background-color:gray;
+}
+body {
+    background: linear-gradient(90deg,rgb(47, 146, 164) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 214, 237, 1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h2 {
+    display:inline-block;
+    padding: 5px;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+}
+a.hover {
+    transform: scale(1.05)
+}
